@@ -1,7 +1,9 @@
 ### Install
+~~~
 git clone https://github.com/tinylabs/SDG2000X.git
 cd SDG2000X
 pip install -u .
+~~~
 
 ### Example
 ~~~
@@ -29,5 +31,7 @@ sdg.config_signal (sig)
 plot = wf.WaveformPlot ([square] + harmonics)
 plot.plot ('Sine odd harmonics', legend = False)
 ~~~
+![plot](./.assets/harmonics.png)
+
 
 More examples (RFID related) in examples/ directory.
