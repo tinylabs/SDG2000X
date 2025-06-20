@@ -280,7 +280,7 @@ if __name__ == '__main__':
         log = logging.CRITICAL
         
     # Get siggen instance
-    #siggen = sg.Siggen ('10.0.1.32', log=log)
+    siggen = sg.Siggen ('10.0.1.32', log=log)
 
     # Generate carrier
     if not args.carrier:
