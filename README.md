@@ -1,7 +1,9 @@
-## Install
-git clone xxx
+### Install
+git clone https://github.com/tinylabs/SDG2000X.git
+cd SDG2000X
+pip install -u .
 
-## Example
+### Example
 ~~~
 from SDG2000X import Siggen, Signal
 import Waveform as wf
